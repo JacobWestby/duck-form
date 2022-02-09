@@ -1,0 +1,246 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* RESET CSS ENDS */
+
+/* STYLING */
+/* CONTAINERS */
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #9dbebb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__container {
+  background-color: #be0909;
+  width: 956px;
+  height: 594px;
+}
+
+form {
+  width: 400px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  position: relative;
+  top: 64px;
+  left: 65px;
+  float: left;
+}
+
+/* CONTAINER END */
+
+/* FORM */
+
+input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #9dbebb;
+}
+
+.email,
+.message__reg {
+  width: 160px;
+}
+
+label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #feffff;
+}
+
+::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.3em;
+  color: #fdffff;
+}
+
+.submit__btn {
+  background: #468189;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  border-bottom: none;
+  width: 202px;
+  height: 48px;
+  margin-top: 58px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  align-self: center;
+}
+
+/* Stackoverflow ;) */
+input:focus {
+  outline: 0;
+}
+
+/* FORM ENDS */
+
+/* ORANGE */
+
+.orange {
+  background: #ffb039;
+  width: 295px;
+  height: 594px;
+  float: right;
+}
+
+/* ORANGE ENDS */
+
+/* IMAGE */
+
+img {
+  z-index: 2;
+  position: absolute;
+  bottom: 60px;
+}
